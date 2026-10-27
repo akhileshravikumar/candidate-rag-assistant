@@ -1,0 +1,1 @@
+"""Local candidate evidence assistant."""
