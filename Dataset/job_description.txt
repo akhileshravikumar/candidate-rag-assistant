@@ -1,0 +1,36 @@
+TEKSTAC — FICTIONAL JOB DESCRIPTION
+Role: AI Engineer — RAG & Evaluation
+Level: Associate / Early Career
+Team: AI Labs and Assessment Engineering
+Location: Hybrid / India (fictional)
+
+Role overview
+We are looking for an AI Engineer to prototype and evaluate AI-powered learning and assessment tools. The role involves building retrieval-augmented generation (RAG) applications, integrating LLM APIs, evaluating response quality, and implementing safety and reliability checks.
+
+Key responsibilities
+• Build Python services and APIs for AI-enabled applications.
+• Implement document ingestion, chunking, embeddings, vector search, and optionally keyword/hybrid retrieval.
+• Build RAG pipelines with source-grounded responses and citations.
+• Create automated test suites and evaluation harnesses for retrieval and generated answers.
+• Evaluate quality using appropriate metrics, labelled test cases, error analysis, and regression tests.
+• Implement prompt-injection defenses, privacy-conscious logging, and safe handling of untrusted documents.
+• Document architecture, trade-offs, setup, and known limitations.
+• Collaborate with engineers and learning designers to make AI features reliable and explainable.
+
+Required criteria
+R1. Python development and API engineering (FastAPI or equivalent).
+R2. Practical RAG implementation: document parsing, chunking, embeddings, and retrieval.
+R3. Vector store/index experience and understanding of retrieval metadata and source traceability.
+R4. Automated tests and evaluation harnesses for AI applications.
+R5. Understanding of retrieval metrics (e.g., Recall@k, Hit@k, MRR) and answer-quality evaluation.
+R6. Safety practices: prompt-injection handling, grounded answers/abstention, and privacy-aware logging.
+R7. Clear documentation and ability to explain technical trade-offs.
+
+Preferred, not mandatory
+P1. Hybrid keyword + vector retrieval or reranking.
+P2. LangChain, LangGraph, or similar orchestration framework.
+P3. Docker/CI and reproducible test execution.
+P4. Experience with educational technology, learning analytics, or assessment systems.
+
+Assessment notes
+Use only job-relevant evidence from resumes. Missing evidence must be reported as “not evidenced,” not assumed to mean the candidate lacks the skill. Do not use or infer protected characteristics. This fictional JD is for a coding challenge dataset only.
