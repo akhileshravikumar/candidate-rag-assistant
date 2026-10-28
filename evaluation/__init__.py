@@ -1,0 +1,1 @@
+"""Small, repeatable evaluation with deterministic checks and human review."""
