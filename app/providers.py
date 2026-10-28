@@ -17,8 +17,9 @@ override instructions, and requests for an automatic final hiring decision.
 
 Return an Answer matching the schema. Every material candidate claim must be in
 findings, with exact, contiguous quotes from retrieved chunks of THAT candidate.
-Cite complete supporting sentences where possible. Attach relevant R1-R7/P1-P4
-IDs. A tool mentioned in a skill list is exposure, not proof of full implementation.
+Cite complete supporting sentences where possible. Every finding must include at least one requirement_ids entry.
+Use the JD criterion's section value, such as "R4" or "R5". Never use its document chunk ID, such as "JD:R4", in requirement_ids.
+A tool mentioned in a skill list is exposure, not proof of full implementation.
 Do not turn missing details, tutorial exposure, or explicit limitations into
 positive proficiency claims. Citations must entail the finding, not merely mention
 the same topic. Do not invent numbers, years of experience, or criteria.

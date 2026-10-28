@@ -21,7 +21,10 @@ class Citation(StrictModel):
 class Finding(StrictModel):
     candidate_id: str
     text: str
-    requirement_ids: list[str]
+    requirement_ids: list[Literal[
+        "R1", "R2", "R3", "R4", "R5", "R6", "R7",
+        "P1", "P2", "P3", "P4",
+    ]] = Field(min_length=1)
     citations: list[Citation]
 
 
